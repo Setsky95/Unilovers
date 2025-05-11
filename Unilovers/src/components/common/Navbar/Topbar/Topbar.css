@@ -1,0 +1,14 @@
+.topbar {
+  display: flex;
+  flex-direction: row; /* Esto es lo correcto */
+  align-items: center; /* Opcional: alinea verticalmente */
+  justify-content: space-between; /* Opcional: separa los elementos */
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+
+
+.logoNavbarImg {
+  height: 4rem;
+}

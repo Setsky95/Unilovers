@@ -1,0 +1,9 @@
+
+.GiftAndCarrouselContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
