@@ -1,0 +1,10 @@
+.product-card {
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+
+.Title-Container {
+text-align: center;
+color:  #e5989b;
+}

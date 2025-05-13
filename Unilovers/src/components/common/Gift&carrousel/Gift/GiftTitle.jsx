@@ -3,7 +3,7 @@ import React from 'react';
 const GiftTitle = () => {
     return (
         <div>
-            GiftTitle
+            Descubrí tu regalo
         </div>
     );
 };

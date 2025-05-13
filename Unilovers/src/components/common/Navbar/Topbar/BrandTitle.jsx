@@ -1,9 +1,8 @@
-import React from 'react';
-
+import "./Topbar.css";
 const BrandTitle = () => {
     return (
         <div>
-          <h1>Uniloverss</h1>  
+          <h1 className='BrandTitleText'>Uniloverss</h1>  
         </div>
     );
 };

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "u001",
+    "sku": "UNI-0001",
+    "nombre": "Unicornio Arcoíris",
+    "edad": "3+",
+    "img": "/imgs/unicornio-arcoiris.png"
+  },
+  {
+    "id": "u002",
+    "sku": "UNI-0002",
+    "nombre": "Unicornio Galáctico",
+    "edad": "5+",
+    "img": "/imgs/unicornio-galactico.png"
+  }
+]

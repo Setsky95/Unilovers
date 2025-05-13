@@ -12,3 +12,12 @@
 .logoNavbarImg {
   height: 4rem;
 }
+
+.BrandTitleText {
+
+  margin: 0;
+  padding: 0 3rem 0 0;
+  line-height: 1rem;
+  color: #e5989b;
+
+}
