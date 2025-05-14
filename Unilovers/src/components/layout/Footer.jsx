@@ -1,9 +1,11 @@
-import React from 'react';
-
+import LowerFooter from "../common/Footer/LowerFooter/LowerFooter";
+import UpperFooter from "../common/Footer/UpperFooter/UpperFooter";
 const Footer = () => {
     return (
         <footer>
-            <p>© 2023 Unilovers. All rights reserved.</p>
+            <UpperFooter />
+            <LowerFooter />
+
         </footer>
     );
 };

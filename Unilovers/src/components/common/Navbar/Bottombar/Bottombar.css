@@ -3,8 +3,7 @@
   width: auto;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FFB4A2;
 }
 
 .burger-icon {
@@ -14,12 +13,13 @@
   width: 30px;
   cursor: pointer;
   z-index: 1001;
+  padding: 0 0 0 1rem;
 }
 
 .line {
   width: 100%;
   height: 3px;
-  background-color: #333;
+  background-color: #ffffff;
   transition: transform 0.3s ease;
 }
 
@@ -33,7 +33,6 @@
   padding: 2rem 1rem;
   transition: left 0.3s ease;
   z-index: 1000;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .side-menu.visible {
@@ -56,11 +55,10 @@
   align-items: center;
   background-color: #fff;
   border-radius: 12px;
-  padding: 0.8rem 1rem;
+  padding: 0.5rem 1rem;
   width: 90%;
   max-width: 400px;
   margin: 1rem auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .search-input {
@@ -100,7 +98,7 @@
 
 .bag-badge {
   position: absolute;
-  background-color: #000000;
+  background-color: #c07e80;
   left: 5px;
   color: #ffffff;
   font-weight: bold;

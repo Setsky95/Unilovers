@@ -1,23 +1,29 @@
 .topbar {
   display: flex;
-  flex-direction: row; /* Esto es lo correcto */
-  align-items: center; /* Opcional: alinea verticalmente */
-  justify-content: space-between; /* Opcional: separa los elementos */
-  padding: 0.5rem 1rem;
-  background-color: #f8f9fa;
-}
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #E5989B;
+  padding: 0;
 
+}
 
 
 .logoNavbarImg {
   height: 4rem;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .BrandTitleText {
-
   margin: 0;
-  padding: 0 3rem 0 0;
+  padding: 1rem 3rem 0 0;
   line-height: 1rem;
-  color: #e5989b;
+  color: #ffffff;
+  font-size: 5rem;
+   font-family: 'Jomhuria', serif;
+  font-weight: 100;
+
 
 }

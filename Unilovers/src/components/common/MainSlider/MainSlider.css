@@ -5,7 +5,18 @@
   max-width: 600px;
   margin: auto;
   border-radius: 1rem;
+  margin: 1.5rem 0 0 0 ;
 }
+
+@media (min-width: 1024px) {
+ .slider-container {
+    max-width: 90rem;   /* más largo */
+    height: 25rem;       /* menos alto (ajustá según tu diseño) */
+    border-radius: 2rem;
+    margin: 2rem auto 0 auto;
+  }
+}
+
 
 .slider-track {
   display: flex;

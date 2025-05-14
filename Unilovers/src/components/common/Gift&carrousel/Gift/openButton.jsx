@@ -2,9 +2,10 @@ import React from 'react';
 
 const OpenButton = () => {
     return (
-        <button>
+        <div className="buttonContainer">
+        <button className="Gift-button">
             Open
-        </button>
+        </button></div>
     );
 };
 

@@ -1,51 +1,87 @@
 
 
 .Gift-container {
- margin: 1rem 0 0 0 ;
+ margin: 2rem 0 0 0 ;
   border-radius: 1.5rem;
   background: linear-gradient(to right, #fbc1b6, #b993b9);
-  padding: 2rem;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10rem;
   color: white;
   overflow: hidden;
-  width: 17rem;
-  height: 18rem;
+  width: 21rem;
+  height: 16rem;
 }
 
-.GiftTitle {
-    height:2rem; ;
+@media screen and (min-width: 768px) {
+  .Gift-container {
+    width: 35rem;
+    height: 23rem;
+    border-radius: 2rem; /* opcional: más suave en pantallas grandes */
+  }
+}
+
+
+.GiftTitle-container{
   font-size: 3rem;
   font-weight: 900;
   text-align: left;
   line-height: 1;
-  padding: 4rem 0 0 0;
+  padding: 1rem 0 0 1rem;
+
 }
 
-.codeBar input {
-  width: 100%;
-  padding: 0.8rem 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 1rem;
-  font-weight: bold;
-  color: #444;
-  background: white;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+.GiftTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0,4rem; 
 }
+.spanTitle {
+  font-family: 'Jomhuria', serif;
+  font-weight: 200;
+  font-size: 90px;
+  line-height:  55px;
+  letter-spacing: 0.02em;
+
+}
+
+.Upper-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Lower-bar {
+  display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+
+
+
+
+.buttonContainer {
+   background: linear-gradient(to right, #f6b8b8, #cc8bb1);
+  font-weight: 700;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 0 1rem 3rem 0;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
 
 .openButton {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  background-color: rgba(255, 255, 255, 0.3);
-  color: white;
-  font-weight: 700;
-  border: 2px solid white;
-  border-radius: 50%;
+
   width: 5rem;
   height: 5rem;
   font-size: 1.2rem;
@@ -57,16 +93,32 @@
   transform: scale(1.1);
 }
 
+
+.Gift-button {
+ background-color: transparent;
+  border: 0;
+  color:  #ffffff;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.codeBar {
+  width: 14rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: #444;
+  background: transparent;
+  padding: 0 0 0 0.5rem;
+}
+
 .search-container {
   display: flex;
   align-items: center;
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 0.8rem 1rem;
-  width: 90%;
-  max-width: 400px;
-  margin: 1rem auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  width: 80%;
+  justify-items:flex-start ;
 }
 
 .search-input {
@@ -74,11 +126,10 @@
   border: none;
   outline: none;
     width: 80%;
-
   font-size: 1rem;
   font-weight: 600;
-  color: #b8abbf;
   background: transparent;
+
 }
 
 .search-input::placeholder {
@@ -92,3 +143,24 @@
   color: #f59a8b;
   margin-left: 0.5rem;
 }
+
+.giftIcon-Cointainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap:0.5rem;
+  padding: 0 2rem 0 0;
+}
+
+.box-icon-1 {
+transform: rotate(16deg);
+width: 33%;
+}
+.box-icon-2 {
+transform: rotate(-16deg);
+width: 44%;
+}
+

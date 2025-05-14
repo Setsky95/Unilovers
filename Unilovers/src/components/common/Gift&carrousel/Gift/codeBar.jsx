@@ -3,8 +3,9 @@ import "./Gift.css";
 
 const CodeBar = () => {
   return (
+  
     <div className="search-container">
-      <input
+      <input 
         type="text"
         placeholder="type your code"
         className="search-input"/>

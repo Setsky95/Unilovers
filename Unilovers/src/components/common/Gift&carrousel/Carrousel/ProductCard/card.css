@@ -39,13 +39,16 @@ overflow: hidden;
   flex-direction: column;
   gap: 0.2rem;
   height: 6rem;
-  padding: 0.5;
+  padding: 0.5rem;
 justify-content:flex-start ;
 
 }
 
 .description-children {
   margin: 0;
+  font-family: 'Jomhuria', serif;
+  font-size: 30px;
+  font-weight: 200;
   padding: 0;
   line-height: 1rem;
   color: #e5989b;

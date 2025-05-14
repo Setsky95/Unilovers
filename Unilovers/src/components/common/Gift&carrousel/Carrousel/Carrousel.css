@@ -1,3 +1,12 @@
+.Carrousel-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
 .product-card {
 display: flex;
 flex-direction: row;
@@ -7,4 +16,14 @@ gap: 1rem;
 .Title-Container {
 text-align: center;
 color:  #e5989b;
+}
+
+.Title-Carrousel {
+text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color:  #e5989b;
+   font-family: 'Jomhuria', serif;
+  font-weight: 100;
+  margin: 0 0 0 ;
 }
