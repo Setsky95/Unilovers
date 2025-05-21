@@ -1,6 +1,8 @@
 import "./card.css";
+import Fav from "./Fav";
 
 const Card = () => {
+  
   return (
     <div className="card-container">
 
@@ -9,6 +11,10 @@ const Card = () => {
           src="/img/media/Products/uni-1.png"
           alt="Product"
         />
+          <div className="favIcon-Cointainer">
+<Fav/> 
+</div>
+
       </div>
       <div className="description-container">
               <div className="SpaceBAR"></div>

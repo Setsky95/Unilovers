@@ -13,13 +13,7 @@
   height: 16rem;
 }
 
-@media screen and (min-width: 768px) {
-  .Gift-container {
-    width: 35rem;
-    height: 23rem;
-    border-radius: 2rem; /* opcional: más suave en pantallas grandes */
-  }
-}
+
 
 
 .GiftTitle-container{
@@ -110,7 +104,7 @@ gap: 1rem;
   font-weight: bold;
   color: #444;
   background: transparent;
-  padding: 0 0 0 0.5rem;
+  padding: 1rem 0 0 0.5rem;
 }
 
 .search-container {
@@ -163,4 +157,96 @@ width: 33%;
 transform: rotate(-16deg);
 width: 44%;
 }
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  
+.Lower-bar {
+  display: flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: space-between;
+}
+
+
+    .Gift-container {
+    width: 36rem;
+    height: 25.5rem;
+    border-radius: 2rem; 
+}
+
+    .GiftTitle-container{
+
+  text-align: left;
+  line-height: 1;
+  padding: 2rem 0 0 3rem;
+
+}
+
+.GiftTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0,4rem; 
+}
+.spanTitle {
+  font-family: 'Jomhuria', serif;
+  font-weight: 200;
+  font-size: 10rem;
+  line-height:  5rem;
+  letter-spacing: 0.02em;
+
+}
+
+.codeBar {
+  width: 22rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: #444;
+  background: transparent;
+    padding: 0rem 0 0 0.5rem;
+  margin: 0.5rem 0 0 0;
+}
+
+
+
+.buttonContainer {
+  margin: -0.8rem  0 0 -3rem;
+  width: 5rem;
+  height: 5rem;
+
+
+ }
+
+    
+.Gift-button {
+
+  font-size: x-large;
+}
+
+.openButton:hover {
+  transform: scale(1.1);
+}
+
+
+.box-icon-1 {
+transform: rotate(16deg);
+width: 44%;
+}
+.box-icon-2 {
+transform: rotate(-16deg);
+width: 66%;
+}
+
+
+
+
+
+   }
 

@@ -1,14 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './MainSlider.css';
 
-const images = [
+const imagesMobile = [
   '/img/media/MainSliderImg/1.jpg',
-'/img/media/MainSliderImg/2.jpg',
+  '/img/media/MainSliderImg/2.jpg',
+];
 
+const imagesDesktop = [
+  '/img/media/MainSliderImg/Desktop/main-slider-1.png',
+  '/img/media/MainSliderImg/Desktop/main-slider-1.png',
 ];
 
 const MainSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    const updateImages = () => {
+      const isDesktop = window.innerWidth >= 1024;
+      setImages(isDesktop ? imagesDesktop : imagesMobile);
+    };
+
+    updateImages(); // Carga inicial
+    window.addEventListener('resize', updateImages);
+
+    return () => window.removeEventListener('resize', updateImages);
+  }, []);
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>

@@ -7,6 +7,14 @@ const GiftAndCarrousel = () => {
   return (
     <div className="GiftAndCarrouselContainer">
       <div className="Gift"><Gift /></div>
+      
+<div className="spaceBar">
+  <div className="dotSpacebar"></div>
+    <div className="dotSpacebar"></div>
+  <div className="dotSpacebar"></div>
+
+</div>
+
       <div className="Carrousel"><Carrousel /></div>
     </div>
   );

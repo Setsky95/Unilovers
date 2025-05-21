@@ -1,5 +1,78 @@
-.upper-footer {
+.upper-footer{
+height: 30rem;
   background-color: #FFB4A2;
-  border-radius: 4px;
-height: 49px;
+  height: 7rem;
+}
+.newsletter-bar-container {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  
+}
+
+
+.suscriptionForm-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.suscription-title-text {
+  text-align: center;
+  color:  #fefefe;
+  font-size: 2.5rem;
+   font-family: 'Jomhuria', serif;
+  font-weight: 100;
+  margin: -1rem 0 -1rem 0
+}
+
+.suscription-emailimput {
+  display: flex;
+  align-items: center;
+}
+
+.suscription-input {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+}
+
+.suscription-button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;}
+
+@media (min-width: 1024px) {
+
+  .upper-footer{
+  height: 6rem;
+}
+  .newsletter-bar-container {
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+  }
+
+
+.suscription-title-text {
+
+  margin: 0 
+}
+
 }

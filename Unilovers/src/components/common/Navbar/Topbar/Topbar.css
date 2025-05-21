@@ -5,8 +5,8 @@
   justify-content: space-between; 
   background-color: #E5989B;
   padding: 0;
-
 }
+
 
 
 .logoNavbarImg {
@@ -16,14 +16,40 @@
   display: block;
 }
 
+
+  .logoNavbarImg {
+    display: block;
+
+}
+
 .BrandTitleText {
   margin: 0;
-  padding: 1rem 3rem 0 0;
+  padding: 1rem 3rem 0 0; 
   line-height: 1rem;
   color: #ffffff;
   font-size: 5rem;
-   font-family: 'Jomhuria', serif;
+  font-family: 'Jomhuria', serif;
   font-weight: 100;
+}
 
 
+  .topbar {
+height: 4rem;
+
+}
+
+@media (min-width: 1024px) {
+  .topbar {
+    justify-content: flex-start;
+    height: 5rem;
+  }
+  
+  .BrandTitleText {
+    font-size: 8rem; 
+    margin: 1rem 0 0rem 15rem;
+ }
+   .logoNavbarImg {
+    display: none;
+
+}
 }

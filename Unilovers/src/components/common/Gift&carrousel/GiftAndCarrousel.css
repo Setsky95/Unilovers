@@ -3,14 +3,36 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center; 
-  justify-content: space-between; 
   padding: 0.5rem 1rem;
   background-color: #f8f9fa;
 }
 
+.spaceBar{
+  display: none;
+}
 
 @media (min-width: 1024px) {
   .GiftAndCarrouselContainer {
+    margin: 1rem 0;
     flex-direction: row;
+    justify-content: center;
+    gap:4rem;
+
   }
+
+  .spaceBar{
+    display: flex; 
+    flex-direction: column;
+    gap: 3rem;
+    width: 1rem;
+  }
+  .dotSpacebar{
+  display: block;
+  opacity: 50%;
+   width:  0.8rem; 
+  height: 0.8rem;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #cc8bb1, #f6b8b8);
 }
+}
+

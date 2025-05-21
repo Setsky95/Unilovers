@@ -27,3 +27,22 @@ text-align: center;
   font-weight: 100;
   margin: 0 0 0 ;
 }
+
+@media (min-width: 1024px) {
+
+
+.Title-Carrousel {
+  font-size: 5rem;
+  height: 6.1rem;
+  margin: -0.7rem 
+
+}
+
+
+.product-card {
+
+gap: 2rem;
+}
+
+
+}
