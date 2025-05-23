@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Gift.css";
 
-const CodeBar = () => {
+const CodeBar = ({ inputCode, setInputCode }) => {
   return (
-  
     <div className="search-container">
-      <input 
+      <input
         type="text"
         placeholder="type your code"
-        className="search-input"/>
+        className="search-input"
+        value={inputCode}
+        onChange={(e) => setInputCode(e.target.value)}
+      />
     </div>
   );
 };

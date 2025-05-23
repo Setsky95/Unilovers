@@ -65,18 +65,6 @@ background: linear-gradient(to right, #fbc1b6, #cc8bb1);
 }
 
 
-.custom-toast {
-  border-top-right-radius: 120px;
-  border-bottom-right-radius: 122px;
-  font-family: 'Jomhuria', serif;
-  background-color: #333;
-  color: white;
-}
-
-.custom-toast-body {
-  font-size: 1rem;
-  letter-spacing: 0.5px;
-}
 .description-container {
   background-color: #EFE9EA;
   overflow: hidden;

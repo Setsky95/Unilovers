@@ -1,0 +1,116 @@
+.Panel-Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 22rem;
+  margin:  auto;
+    border: 1px dashed rgb(58, 57, 57);
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.ProductList-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 0.6rem;
+  
+}
+
+.dataSpanContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.dataPanelchiildren {
+  height: 1rem;
+  width: 1rem;
+    box-sizing: border-box;
+    border: 1px dashed rgb(58, 57, 57);
+    margin: 1px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.dataPanel{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 19.5rem;
+    height: 5rem;
+    
+}
+
+.CampainsList {
+  display: none;
+}
+
+.DataitSelf{
+    text-align: center;
+}
+.DataitSelfImg{
+    width: 100%;
+}
+
+
+
+@media (min-width: 1200px) {
+
+.Panel-Container{
+    flex-direction: row;
+}
+}
+
+
+.ProductList {
+
+  margin: 5rem auto;
+
+}
+
+
+.ProductList-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.dataSpanContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+gap: 3.5rem;
+}
+
+
+.dataPanelchiildren {
+  height: 5rem;
+  width: 5rem;
+    box-sizing: border-box;
+    border: 1px dashed rgb(58, 57, 57);
+    margin: 1px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.dataPanel{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}

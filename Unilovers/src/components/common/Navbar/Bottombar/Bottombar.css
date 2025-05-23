@@ -279,24 +279,28 @@
   }
 
   .side-menu {
-    position: fixed;
     top: -50rem;
     left: 0;
     width: 97vw;
     height: 5rem;
     padding: 0 0 0 3rem;
-    transition: top;
-    z-index: 1000;
+transition: top 0.3s ease, opacity 0.3s ease;    z-index: -1;
     align-items: center;
     display: flex;
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
       border-left: none;
   border-right: none;
+  opacity: 0;
+  z-index: -10;
   }
+
 
   .side-menu.visible {
     top: 10.5rem;
+  z-index: -10;
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .side-menu ul {
