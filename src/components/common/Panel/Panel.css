@@ -1,0 +1,101 @@
+.Panel-Container{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.ProductList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 28rem; 
+  margin: auto;
+  padding: 10px 0;
+  border: 1px dashed rgb(58, 57, 57);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+
+.dataSpanContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.2rem; /* más compacto para que entre todo */
+  flex-wrap: wrap;
+}
+
+.dataHeaderSpan {
+  font-weight: bold;
+  width: 6rem;
+  text-align: center;
+}
+
+.dataPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.dataPanelChildren {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 5rem;
+  width: 6rem;
+  border: 1px dashed rgb(58, 57, 57);
+  border-radius: 5px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.DataitSelf {
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  width: 100%;
+}
+
+.DataitSelfImg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+
+@media (min-width: 1200px) {
+.Panel-Container{
+  display: flex;
+  flex-direction: row;
+}
+  
+ .ProductList {
+ 
+  width: 100%;
+  max-width: 58rem; 
+  margin: 1rem auto;
+  padding: 10px 20px;
+  
+}
+
+
+  .dataPanelChildren {
+    width: 7rem;
+    min-height: 7rem;
+  }
+
+  .dataSpanContainer {
+    gap: 2rem;
+  }
+}
