@@ -3,7 +3,7 @@ import Confetti from "react-confetti";
 import GiftTitle from "./GiftTitle";
 import CodeBar from "./codeBar";
 import OpenButton from "./openButton";
-import GiftIcon from "./GiftIcon";
+import GiftIcon from './GiftIcon.jsx';
 import PromoResult from "./PromoResult";
 import "./Gift.css";
 
