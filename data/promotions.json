@@ -1,0 +1,58 @@
+[
+
+     {
+    "title": "Super Price",
+    "benefit": "15% de descuento",
+    "code": "UNILOVER"
+  },
+  {
+    "title": "Descuento Mágico del Arcoíris",
+    "benefit": "15% de descuento",
+    "code": "RAINBOW15"
+  },
+  {
+    "title": "Envío Gratis Galopando",
+    "benefit": "Envío gratis",
+    "code": "UNICORNRIDE"
+  },
+  {
+    "title": "Brillo de Luna",
+    "benefit": "2x1 en productos seleccionados",
+    "code": "MOONSHINE"
+  },
+  {
+    "title": "Pack Encantado",
+    "benefit": "3x1 en accesorios mágicos",
+    "code": "MAGICBUNDLE"
+  },
+  {
+    "title": "Cuerno Dorado",
+    "benefit": "20% OFF en toda la tienda",
+    "code": "GOLDENHORN"
+  },
+  {
+    "title": "Ala de Pegaso",
+    "benefit": "Regalo sorpresa en tu compra",
+    "code": "PEGASUSGIFT"
+  },
+  {
+    "title": "Sueño de Nube",
+    "benefit": "10% OFF + envío gratis",
+    "code": "CLOUDYUNICORN"
+  },
+  {
+    "title": "Estrella Fugaz",
+    "benefit": "Desbloqueá un producto exclusivo",
+    "code": "SHOOTINGSTAR"
+  },
+  {
+    "title": "Universo Pastel",
+    "benefit": "25% OFF en categoría arcoíris",
+    "code": "PASTEL25"
+  },
+  {
+    "title": "Polvo de Hadas",
+    "benefit": "Envío express sin cargo",
+    "code": "FAIRYDUST"
+  }
+]
