@@ -4,7 +4,7 @@
     "sku": "UNI-0001",
     "nombre": "Arcoíris",
     "edad": "3+",
-    "img": "/img/media/products/uni-1.png",
+    "img": "../img/media/Products/uni-1.png",
     "precio": "19.99"
 
   },
@@ -13,7 +13,7 @@
     "sku": "UNI-0002",
     "nombre": "Galáctico",
     "edad": "5+",
-    "img": "/img/media/products/uni-2.png",
+    "img": "../img/media/Products/uni-2.png",
     "precio": "24.99"
   },
   {
@@ -21,7 +21,7 @@
     "sku": "UNI-0003",
     "nombre": "Galáctico",
     "edad": "5+",
-    "img": "/img/media/products/uni-3.png",
+    "img": "../img/media/Products/uni-3.png",
     "precio": "29.99"
   },
   {
@@ -29,7 +29,7 @@
     "sku": "UNI-0004",
     "nombre": "Niebla",
     "edad": "4+",
-    "img": "/img/media/products/uni-4.png",
+    "img": "../img/media/Products/uni-4.png",
     "precio": "22.99"
   },
   {
@@ -37,7 +37,7 @@
     "sku": "UNI-0005",
     "nombre": "Cristal",
     "edad": "3+",
-    "img": "/img/media/products/uni-5.png",
+    "img": "../img/media/Products/uni-5.png",
     "precio": "19.99"
   },
   {
@@ -45,7 +45,7 @@
     "sku": "UNI-0006",
     "nombre": "Estelar",
     "edad": "6+",
-    "img": "/img/media/products/uni-6.png",
+    "img": "../img/media/Products/uni-6.png",
     "precio": "29.99"
   },
   {
@@ -53,7 +53,7 @@
     "sku": "UNI-0007",
     "nombre": "Solar",
     "edad": "4+",
-    "img": "/img/media/products/uni-7.png",
+    "img": "../img/media/Products/uni-7.png",
     "precio": "24.99"
   },
   {
@@ -61,7 +61,7 @@
     "sku": "UNI-0008",
     "nombre": "Nieve",
     "edad": "5+",
-    "img": "/img/media/products/uni-8.png",
+    "img": "../img/media/Products/uni-8.png",
     "precio": "22.99"
   }
 ]
