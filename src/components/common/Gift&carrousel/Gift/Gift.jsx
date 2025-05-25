@@ -3,7 +3,7 @@ import Confetti from "react-confetti";
 import GiftTitle from "./GiftTitle";
 import CodeBar from "./codeBar";
 import OpenButton from "./openButton";
-import GiftIcon from './GiftIcon.jsx';
+import Gifticon from './Gifticon';
 import PromoResult from "./PromoResult";
 import "./Gift.css";
 
@@ -38,7 +38,7 @@ const Gift = () => {
           <GiftTitle />
         </div>
         <div className="Gift-icon">
-          <GiftIcon />
+          <Gifticon />
         </div>
       </div>
 

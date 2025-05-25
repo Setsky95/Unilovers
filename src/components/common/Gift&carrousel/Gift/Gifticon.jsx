@@ -1,6 +1,6 @@
 import "./Gift.css";
 
-const GiftIcon = () => {
+const Gifticon = () => {
   return (
     <div className="giftIcon-Cointainer">
       <img
@@ -19,4 +19,4 @@ const GiftIcon = () => {
   );
 };
 
-export default GiftIcon;
+export default Gifticon;
