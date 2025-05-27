@@ -1,15 +1,19 @@
 .main-slider {
-background: white;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;     /* si querés centrar verticalmente también */
+  width: 100%;             /* asegurás que tome todo el ancho disponible */
 }
 .slider-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 92%;
   max-width: 600px;
-  margin: auto;
+  margin: 1.5rem auto 0 auto;
   border-radius: 1rem;
-  margin: 1.5rem 0 0 0 ;
-background: transparent;}
+  background: transparent;
+}
 
 
 .slider-track {
