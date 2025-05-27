@@ -26,23 +26,23 @@ const Catalog = () => {
 <div className="ProductList">
     <div className="ProductList-title">
 
-  <h2>Active Products</h2>
+  <h2 className="panel-Text">Active Products</h2>
   </div>
   <div className="dataSpanContainer">
-    <span className="dataHeaderSpan">SKU</span>
-    <span className="dataHeaderSpan">Nombre</span>
-    <span className="dataHeaderSpan">Foto</span>
+    <span className="dataHeaderSpan panel-Text">SKU</span>
+    <span className="dataHeaderSpan panel-Text">Nombre</span>
+    <span className="dataHeaderSpan panel-Text">Foto</span>
 </div>
     <div className="ProductList-content">
 
   {products.map((product, idx) => (
     <div className="dataPanel" key={product.id || idx}>
       <div className="dataPanelChildren">
-        <p className="DataitSelf">{product.sku || "Sin SKU"}</p>
+        <p className="DataitSelf panel-Text">{product.sku || "Sin SKU"}</p>
       </div>
 
       <div className="dataPanelChildren">
-        <p className="DataitSelf"> {product.nombre || "Sin Nombre"}</p>
+        <p className="DataitSelf panel-Text"> {product.nombre || "Sin Nombre"}</p>
       </div>
       
    

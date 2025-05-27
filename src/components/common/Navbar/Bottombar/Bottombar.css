@@ -260,6 +260,8 @@
   cursor: pointer;
 }
 
+
+
 @media (min-width: 1024px) {
   .BottombarContainer {
     height: 5rem;
@@ -273,6 +275,11 @@
     margin: 5px 0 0 0;
     cursor: pointer;
     color: white;
+    
+  }
+  .categories-word {
+    height: 6rem;
+    margin: 0;
   }
 
   .right-botoombar-container {

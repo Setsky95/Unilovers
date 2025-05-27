@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Bottombar.css";
 import Favorites from "./Favorites";
+import { Link } from "react-router-dom";
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +23,15 @@ const BurgerMenu = () => {
 
 
       <Favorites />
-  
-          <div className="HornSale-container-mobile">
-            <img
-              src="/img/media/horn-sale-logo.png"
-              alt="Horn Sale"
-              className="horn-sale-img-mobile"
-            />
-          </div>
+          <Link to="/panel">
+            <div className="HornSale-container-mobile">
+              <img
+                src="/img/media/horn-sale-logo.png"
+                alt="Horn Sale"
+                className="horn-sale-img-mobile"
+              />
+            </div>
+          </Link>
 
       <button
             className="burger-x-button "
@@ -41,7 +43,7 @@ const BurgerMenu = () => {
       </div>
 
       <div className="categories-Container" onClick={() => setIsOpen(!isOpen)}>
-        <p className="">categories</p>
+        <p className="categories-word">categories</p>
       </div>
     </div>
   );
