@@ -5,6 +5,8 @@
   background-color: #ffb4a2;
   padding: 0.3rem 1rem;
   height: 3.5rem;
+  z-index: 1002;
+  position: relative;
 }
 
 .search-container {
@@ -102,14 +104,16 @@
   background-color: rgb(255, 255, 255);
   padding: 2rem 1rem;
   transition: left 0.3s ease;
-  z-index: 1000;
+  z-index: 999;
   border-top-right-radius: 34px;
   border-bottom: 3px solid #ffb4a2;
   border-right: 3px solid #ffb4a2;
+  visibility: hidden;
 }
 
 .side-menu.visible {
   left: 0;
+  visibility: visible;
 }
 
 .side-menu ul {
@@ -291,6 +295,7 @@
     align-items: flex-end;
     height: 100%;
     position: relative;
+    z-index: 1003;
   }
 
   .img-logo-desktop-img {
@@ -298,6 +303,7 @@
     bottom: 0;
     transform: translateY(28%);
     height: 10rem;
+    z-index: 1003;
   }
 
   .BugerMenu {
@@ -358,7 +364,7 @@
   width: 97vw;
   height: 5rem;
   padding: 0 0 0 3rem;
-  transition: top 0.3s ease, opacity 0.3s ease;
+  transition: none;
   display: flex;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
@@ -367,11 +373,13 @@
   opacity: 0;
   z-index: 1000; 
   align-items: center;
+  visibility: hidden;
 }
 
 .side-menu.visible {
   top: 10.5rem;
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
   z-index: 1000; 
 }
